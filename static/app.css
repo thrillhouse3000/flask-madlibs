@@ -1,0 +1,9 @@
+body {
+	text-align: center;
+	display: flexbox;
+}
+
+form input {
+	display: block;
+	margin: auto;
+}

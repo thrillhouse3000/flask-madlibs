@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block header %}Select a Story Template{% endblock %}
+
+{% block content %}
+    <form action="/story-form">
+        <select name="templates" id="template-select">
+          <option value="0">Story 1</option>
+          <option value="1">Story 2</option>
+          <option value="2">Story 3</option>
+        </select>
+        <button>Submit</button>
+    </form>
+{% endblock %}
